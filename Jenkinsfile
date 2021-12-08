@@ -34,6 +34,7 @@ pipeline {
                 sh 'mvn org.owasp:dependency-check-maven:check'
               }
             }
+          }
         }
         post {
           always {
